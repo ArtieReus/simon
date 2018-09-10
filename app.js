@@ -77,11 +77,11 @@ $(function() {
 
 	playKey = function(key){
 		switch(key){
-			case LEFT: keyAreaPressed('red'); purr(); return;
-			case UP: keyAreaPressed('yellow'); frog(); return;
-			case RIGHT: keyAreaPressed('green'); basso(); return;
-			case DOWN: keyAreaPressed('orange'); glass(); return;
-			case SPACE: keyAreaPressed('black'); ping(); return;
+			case LEFT: keyAreaPressed('red'); playAudio("cat"); return;
+			case UP: keyAreaPressed('yellow'); playAudio("cow"); return;
+			case RIGHT: keyAreaPressed('green'); playAudio("dog"); return;
+			case DOWN: keyAreaPressed('orange'); playAudio("horse"); return;
+			case SPACE: keyAreaPressed('black'); playAudio("monkey"); return;
 		}
 	};
 	

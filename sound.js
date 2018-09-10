@@ -1,3 +1,8 @@
+function playAudio(filename) {  
+		var snd = new Audio(filename+".wav"); // buffers automatically when created
+    snd.play();
+}
+
 function purr() {  
 		var snd = new Audio("Purr.wav"); // buffers automatically when created
     snd.play();
